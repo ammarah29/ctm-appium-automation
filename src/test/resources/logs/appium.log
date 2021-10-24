@@ -1,0 +1,1084 @@
+2021-10-24 10:55:08:864 [Appium] Welcome to Appium v1.21.0
+2021-10-24 10:55:08:865 [Appium] Non-default server args:
+2021-10-24 10:55:08:865 [Appium]   port: 4729
+2021-10-24 10:55:08:865 [Appium]   logFile: /Users/ammarahahmed/IdeaProjects/ctm-appium-automation/src/test/resources/logs/appium.log
+2021-10-24 10:55:08:866 [Appium]   logTimestamp: true
+2021-10-24 10:55:08:866 [Appium]   allowInsecure: {
+2021-10-24 10:55:08:866 [Appium]     0: chromedriver_autodownload
+2021-10-24 10:55:08:866 [Appium]   }
+2021-10-24 10:55:08:888 [Appium] Appium REST http interface listener started on 0.0.0.0:4729
+2021-10-24 10:55:09:649 [HTTP] --> GET /wd/hub/status
+2021-10-24 10:55:09:650 [HTTP] {}
+2021-10-24 10:55:09:651 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-10-24 10:55:09:652 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.21.0"}}
+2021-10-24 10:55:09:656 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2021-10-24 10:55:09:657 [HTTP] 
+2021-10-24 10:55:10:163 [HTTP] Request idempotency key: 22bc8015-6ca7-4a43-aacd-ca1930d366b3
+2021-10-24 10:55:10:181 [HTTP] --> POST /wd/hub/session
+2021-10-24 10:55:10:181 [HTTP] {"desiredCapabilities":{"app":"/Users/ammarahahmed/Library/Developer/Xcode/DerivedData/meerkatmovies-bapgsfrnvqfopaenagfmipnrkjor/Build/Products/Debug-iphonesimulator/meerkatmovies-dev.app","wdaStartupRetryInterval":"20000","platformVersion":"14.4","automationName":"XCUITest","bundleId":"com.comparethemarket.meerkatmovies-dev","wdaStartupRetries":"4","platformName":"iOS","deviceName":"iPhone 12 Pro Max","iosInstallPause":"8000","printPageSourceOnFindFailure":true},"capabilities":{"firstMatch":[{"appium:app":"/Users/ammarahahmed/Library/Developer/Xcode/DerivedData/meerkatmovies-bapgsfrnvqfopaenagfmipnrkjor/Build/Products/Debug-iphonesimulator/meerkatmovies-dev.app","appium:automationName":"XCUITest","appium:bundleId":"com.comparethemarket.meerkatmovies-dev","appium:deviceName":"iPhone 12 Pro Max","appium:iosInstallPause":"8000","platformName":"ios","appium:platformVersion":"14.4","appium:printPageSourceOnFindFailure":true,"appium:wdaStartupRetries":"4","appium:wdaStartupRetryInterval":"20000"}]}}
+2021-10-24 10:55:10:183 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/ammarahahmed/Library/Developer/Xcode/DerivedData/meerkatmovies-bapgsfrnvqfopaenagfmipnrkjor/Build/Products/Debug-iphonesimulator/meerkatmovies-dev.app","wdaStartupRetryInterval":"20000","platformVersion":"14.4","automationName":"XCUITest","bundleId":"com.comparethemarket.meerkatmovies-dev","wdaStartupRetries":"4","platformName":"iOS","deviceName":"iPhone 12 Pro Max","iosInstallPause":"8000","printPageSourceOnFindFailure":true},null,{"firstMatch":[{"appium:app":"/Users/ammarahahmed/Library/Developer/Xcode/DerivedData/meerkatmovies-bapgsfrnvqfopaenagfmipnrkjor/Build/Products/Debug-iphonesimulator/meerkatmovies-dev.app","appium:automationName":"XCUITest","appium:bundleId":"com.comparethemarket.meerkatmovies-dev","appium:deviceName":"iPhone 12 Pro Max","appium:iosInstallPause":"8000","platformName":"ios","appium:platformVersion":"14.4","appium:printPageSourceOnFindFailure":true,"appium:wdaStartupRetries":"4","appium:wdaStartupRetryInterval":"20000"}]}]
+2021-10-24 10:55:10:185 [BaseDriver] Event 'newSessionRequested' logged at 1635072910184 (11:55:10 GMT+0100 (British Summer Time))
+2021-10-24 10:55:11:134 [Appium] Appium v1.21.0 creating new XCUITestDriver (v3.43.0) session
+2021-10-24 10:55:11:135 [Appium] Explicitly enabling use of insecure features:
+2021-10-24 10:55:11:135 [Appium]     chromedriver_autodownload
+2021-10-24 10:55:11:136 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-10-24 10:55:11:136 [BaseDriver] Creating session with W3C capabilities: {
+2021-10-24 10:55:11:137 [BaseDriver]   "alwaysMatch": {
+2021-10-24 10:55:11:137 [BaseDriver]     "platformName": "ios",
+2021-10-24 10:55:11:137 [BaseDriver]     "appium:app": "/Users/ammarahahmed/Library/Developer/Xcode/DerivedData/meerkatmovies-bapgsfrnvqfopaenagfmipnrkjor/Build/Products/Debug-iphonesimulator/meerkatmovies-dev.app",
+2021-10-24 10:55:11:137 [BaseDriver]     "appium:automationName": "XCUITest",
+2021-10-24 10:55:11:137 [BaseDriver]     "appium:bundleId": "com.comparethemarket.meerkatmovies-dev",
+2021-10-24 10:55:11:137 [BaseDriver]     "appium:deviceName": "iPhone 12 Pro Max",
+2021-10-24 10:55:11:137 [BaseDriver]     "appium:iosInstallPause": "8000",
+2021-10-24 10:55:11:137 [BaseDriver]     "appium:platformVersion": "14.4",
+2021-10-24 10:55:11:137 [BaseDriver]     "appium:printPageSourceOnFindFailure": true,
+2021-10-24 10:55:11:137 [BaseDriver]     "appium:wdaStartupRetries": "4",
+2021-10-24 10:55:11:137 [BaseDriver]     "appium:wdaStartupRetryInterval": "20000"
+2021-10-24 10:55:11:137 [BaseDriver]   },
+2021-10-24 10:55:11:137 [BaseDriver]   "firstMatch": [
+2021-10-24 10:55:11:138 [BaseDriver]     {}
+2021-10-24 10:55:11:138 [BaseDriver]   ]
+2021-10-24 10:55:11:138 [BaseDriver] }
+2021-10-24 10:55:11:140 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-10-24 10:55:11:140 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-10-24 10:55:11:140 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-10-24 10:55:11:142 [BaseDriver] Capability 'iosInstallPause' changed from string ('8000') to integer (8000). This may cause unexpected behavior
+2021-10-24 10:55:11:142 [BaseDriver] Capability 'wdaStartupRetries' changed from string ('4') to integer (4). This may cause unexpected behavior
+2021-10-24 10:55:11:143 [BaseDriver] Capability 'wdaStartupRetryInterval' changed from string ('20000') to integer (20000). This may cause unexpected behavior
+2021-10-24 10:55:11:145 [BaseDriver] Session created with session id: 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:11:167 [XCUITest] Current user: 'ammarahahmed'
+2021-10-24 10:55:15:290 [XCUITest] iOS SDK Version set to '15.0'
+2021-10-24 10:55:16:816 [iOSSim] Constructing iOS simulator for Xcode version 13.0 with udid 'BCC703D6-ADD4-4ABA-A204-21D483F6F0FC'
+2021-10-24 10:55:16:816 [XCUITest] Determining device to run tests on: udid: 'BCC703D6-ADD4-4ABA-A204-21D483F6F0FC', real device: false
+2021-10-24 10:55:16:818 [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1635072916818 (11:55:16 GMT+0100 (British Summer Time))
+2021-10-24 10:55:16:820 [BaseDriver] Using local app '/Users/ammarahahmed/Library/Developer/Xcode/DerivedData/meerkatmovies-bapgsfrnvqfopaenagfmipnrkjor/Build/Products/Debug-iphonesimulator/meerkatmovies-dev.app'
+2021-10-24 10:55:16:820 [BaseDriver] Event 'appConfigured' logged at 1635072916820 (11:55:16 GMT+0100 (British Summer Time))
+2021-10-24 10:55:16:820 [XCUITest] Checking whether app '/Users/ammarahahmed/Library/Developer/Xcode/DerivedData/meerkatmovies-bapgsfrnvqfopaenagfmipnrkjor/Build/Products/Debug-iphonesimulator/meerkatmovies-dev.app' is actually present on file system
+2021-10-24 10:55:16:820 [XCUITest] App is present
+2021-10-24 10:55:16:820 [BaseDriver] Event 'resetStarted' logged at 1635072916820 (11:55:16 GMT+0100 (British Summer Time))
+2021-10-24 10:55:17:395 [XCUITest] Not scrubbing third party app in anticipation of uninstall
+2021-10-24 10:55:17:395 [BaseDriver] Event 'resetComplete' logged at 1635072917395 (11:55:17 GMT+0100 (British Summer Time))
+2021-10-24 10:55:17:396 [WebDriverAgent] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+2021-10-24 10:55:17:396 [WebDriverAgent] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2021-10-24 10:55:17:679 [IOSSimulatorLog] Starting log capture for iOS Simulator with udid 'BCC703D6-ADD4-4ABA-A204-21D483F6F0FC' using simctl
+2021-10-24 10:55:18:203 [BaseDriver] Event 'logCaptureStarted' logged at 1635072918202 (11:55:18 GMT+0100 (British Summer Time))
+2021-10-24 10:55:18:203 [XCUITest] Setting up simulator
+2021-10-24 10:55:18:203 [iOS] No reason to set locale
+2021-10-24 10:55:18:204 [iOS] No iOS / app preferences to set
+2021-10-24 10:55:18:204 [iOS] Setting did not need to be updated
+2021-10-24 10:55:18:206 [iOSSim] Setting preferences of BCC703D6-ADD4-4ABA-A204-21D483F6F0FC Simulator to {"ConnectHardwareKeyboard":false}
+2021-10-24 10:55:18:206 [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+2021-10-24 10:55:18:766 [iOSSim] Updated BCC703D6-ADD4-4ABA-A204-21D483F6F0FC Simulator preferences at '/Users/ammarahahmed/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"BCC703D6-ADD4-4ABA-A204-21D483F6F0FC":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"ChromeTint":"","SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"SimulatorWindowGeometry":{"80133BB9-12E5-4446-B024-E6130F7EAC85":{"WindowCenter":"{1429, 577.5}","WindowScale":0.965979381443299}}}}}
+2021-10-24 10:55:19:100 [iOSSim] Got Simulator UI client PID: 5777
+2021-10-24 10:55:19:101 [iOSSim] Both Simulator with UDID 'BCC703D6-ADD4-4ABA-A204-21D483F6F0FC' and the UI client are currently running
+2021-10-24 10:55:19:101 [BaseDriver] Event 'simStarted' logged at 1635072919101 (11:55:19 GMT+0100 (British Summer Time))
+2021-10-24 10:55:19:101 [XCUITest] Verifying application platform
+2021-10-24 10:55:19:105 [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+2021-10-24 10:55:19:498 [XCUITest] Reset requested. Removing app with id 'com.comparethemarket.meerkatmovies-dev' from the device
+2021-10-24 10:55:20:155 [XCUITest] Installing '/Users/ammarahahmed/Library/Developer/Xcode/DerivedData/meerkatmovies-bapgsfrnvqfopaenagfmipnrkjor/Build/Products/Debug-iphonesimulator/meerkatmovies-dev.app' on Simulator with UUID 'BCC703D6-ADD4-4ABA-A204-21D483F6F0FC'...
+2021-10-24 10:55:24:903 [WebDriverAgent] Parsed BUILD_DIR configuration value: '/Users/ammarahahmed/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Build/Products'
+2021-10-24 10:55:24:904 [WebDriverAgent] Got derived data root: '/Users/ammarahahmed/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
+2021-10-24 10:55:25:287 [XCUITest] The app has been installed successfully.
+2021-10-24 10:55:25:287 [XCUITest] iosInstallPause set. Pausing 8000 ms before continuing
+2021-10-24 10:55:33:291 [BaseDriver] Event 'appInstalled' logged at 1635072933290 (11:55:33 GMT+0100 (British Summer Time))
+2021-10-24 10:55:33:508 [WebDriverAgent] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+2021-10-24 10:55:33:509 [DevCon Factory] Requesting connection for device BCC703D6-ADD4-4ABA-A204-21D483F6F0FC on local port 8100
+2021-10-24 10:55:33:509 [DevCon Factory] Cached connections count: 0
+2021-10-24 10:55:33:509 [DevCon Factory] Successfully requested the connection for BCC703D6-ADD4-4ABA-A204-21D483F6F0FC:8100
+2021-10-24 10:55:33:510 [XCUITest] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+2021-10-24 10:55:33:512 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-10-24 10:55:33:513 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2021-10-24 10:55:33:560 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"15.0","version":"14.4"},"ios":{"simulatorVersion":"14.4","ip":"192.168.0.17"},"ready":true,"build":{"upgradedAt":"1631627467365","time":"Oct  5 2021 10:44:34","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2021-10-24 10:55:33:561 [WebDriverAgent] Upgrade timestamp of the currently bundled WDA: 1631627467365
+2021-10-24 10:55:33:561 [WebDriverAgent] Upgrade timestamp of the WDA on the device: 1631627467365
+2021-10-24 10:55:33:561 [WebDriverAgent] Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+2021-10-24 10:55:33:561 [XCUITest] Trying to start WebDriverAgent 4 times with 20000ms interval
+2021-10-24 10:55:33:562 [BaseDriver] Event 'wdaStartAttempted' logged at 1635072933562 (11:55:33 GMT+0100 (British Summer Time))
+2021-10-24 10:55:33:562 [WebDriverAgent] Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+2021-10-24 10:55:33:563 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-10-24 10:55:33:563 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2021-10-24 10:55:33:567 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"15.0","version":"14.4"},"ios":{"simulatorVersion":"14.4","ip":"192.168.0.17"},"ready":true,"build":{"upgradedAt":"1631627467365","time":"Oct  5 2021 10:44:34","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2021-10-24 10:55:33:567 [BaseDriver] Event 'wdaSessionAttempted' logged at 1635072933567 (11:55:33 GMT+0100 (British Summer Time))
+2021-10-24 10:55:33:567 [XCUITest] Sending createSession command to WDA
+2021-10-24 10:55:33:568 [WD Proxy] Matched '/session' to command name 'createSession'
+2021-10-24 10:55:33:569 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.comparethemarket.meerkatmovies-dev","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true}],"alwaysMatch":{}}}
+2021-10-24 10:55:42:325 [WD Proxy] Got response with status 200: {"value":{"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C","capabilities":{"device":"iphone","browserName":" ","sdkVersion":"14.4","CFBundleIdentifier":"com.apple.springboard"}},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:42:325 [WD Proxy] Determined the downstream protocol as 'W3C'
+2021-10-24 10:55:42:326 [BaseDriver] Event 'wdaSessionStarted' logged at 1635072942326 (11:55:42 GMT+0100 (British Summer Time))
+2021-10-24 10:55:42:326 [BaseDriver] Event 'wdaStarted' logged at 1635072942326 (11:55:42 GMT+0100 (British Summer Time))
+2021-10-24 10:55:42:326 [XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+2021-10-24 10:55:42:326 [BaseDriver] Event 'orientationSet' logged at 1635072942326 (11:55:42 GMT+0100 (British Summer Time))
+2021-10-24 10:55:42:327 [BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+2021-10-24 10:55:42:327 [BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+2021-10-24 10:55:42:327 [Appium] New XCUITestDriver session created successfully, session 1e873750-b4bc-4c8d-905b-5087e63dbc35 added to master session list
+2021-10-24 10:55:42:328 [BaseDriver] Event 'newSessionStarted' logged at 1635072942327 (11:55:42 GMT+0100 (British Summer Time))
+2021-10-24 10:55:42:328 [W3C (1e873750)] Cached the protocol value 'W3C' for the new session 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:42:328 [W3C (1e873750)] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","app":"/Users/ammarahahmed/Library/Developer/Xcode/DerivedData/meerkatmovies-bapgsfrnvqfopaenagfmipnrkjor/Build/Products/Debug-iphonesimulator/meerkatmovies-dev.app","automationName":"XCUITest","bundleId":"com.comparethemarket.meerkatmovies-dev","deviceName":"iPhone 12 Pro Max","iosInstallPause":8000,"platformVersion":"14.4","printPageSourceOnFindFailure":true,"wdaStartupRetries":4,"wdaStartupRetryInterval":20000,"udid":"BCC703D6-ADD4-4ABA-A204-21D483F6F0FC"}}
+2021-10-24 10:55:42:330 [HTTP] <-- POST /wd/hub/session 200 32148 ms - 759
+2021-10-24 10:55:42:330 [HTTP] 
+2021-10-24 10:55:42:375 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/timeouts
+2021-10-24 10:55:42:375 [HTTP] {"implicit":5000}
+2021-10-24 10:55:42:378 [W3C (1e873750)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:42:380 [XCUITest] Executing command 'timeouts'
+2021-10-24 10:55:42:380 [BaseDriver] W3C timeout argument: {"implicit":5000}}
+2021-10-24 10:55:42:381 [BaseDriver] Set implicit wait to 5000ms
+2021-10-24 10:55:42:381 [W3C (1e873750)] Responding to client with driver.timeouts() result: null
+2021-10-24 10:55:42:382 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/timeouts 200 7 ms - 14
+2021-10-24 10:55:42:382 [HTTP] 
+2021-10-24 10:55:42:659 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:42:660 [HTTP] {}
+2021-10-24 10:55:42:667 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:42:667 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:42:668 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:42:669 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 10 ms - 22
+2021-10-24 10:55:42:670 [HTTP] 
+2021-10-24 10:55:42:687 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:42:688 [HTTP] {"using":"id","value":"Ask App not to Track"}
+2021-10-24 10:55:42:693 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["id","Ask App not to Track","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:42:695 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:42:697 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:42:698 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:42:709 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:42:709 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"id","value":"Ask App not to Track"}
+2021-10-24 10:55:42:918 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"FF080000-0000-0000-A916-000000000000","element-6066-11e4-a52e-4f735466cecf":"FF080000-0000-0000-A916-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:42:919 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"FF080000-0000-0000-A916-000000000000","ELEMENT":"FF080000-0000-0000-A916-000000000000"}
+2021-10-24 10:55:42:920 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 234 ms - 137
+2021-10-24 10:55:42:920 [HTTP] 
+2021-10-24 10:55:42:927 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/FF080000-0000-0000-A916-000000000000/click
+2021-10-24 10:55:42:927 [HTTP] {"id":"FF080000-0000-0000-A916-000000000000"}
+2021-10-24 10:55:42:929 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:42:930 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:42:931 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/FF080000-0000-0000-A916-000000000000/click' to command name 'click'
+2021-10-24 10:55:42:932 [WD Proxy] Proxying [POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/FF080000-0000-0000-A916-000000000000/click] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/FF080000-0000-0000-A916-000000000000/click] with body: {"id":"FF080000-0000-0000-A916-000000000000"}
+2021-10-24 10:55:43:727 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:43:727 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:43:728 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/FF080000-0000-0000-A916-000000000000/click 200 801 ms - 65
+2021-10-24 10:55:43:729 [HTTP] 
+2021-10-24 10:55:43:737 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:43:737 [HTTP] {}
+2021-10-24 10:55:43:740 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:43:741 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:43:742 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:43:743 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 5 ms - 22
+2021-10-24 10:55:43:743 [HTTP] 
+2021-10-24 10:55:43:748 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:43:748 [HTTP] {"using":"id","value":"Welcome to Meerkat"}
+2021-10-24 10:55:43:749 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["id","Welcome to Meerkat","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:43:749 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:43:750 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:43:750 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:43:751 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:43:752 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"id","value":"Welcome to Meerkat"}
+2021-10-24 10:55:43:862 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"1F000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"1F000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:43:862 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1F000000-0000-0000-7765-000000000000","ELEMENT":"1F000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:43:863 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 115 ms - 137
+2021-10-24 10:55:43:863 [HTTP] 
+2021-10-24 10:55:43:866 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/1F000000-0000-0000-7765-000000000000/displayed
+2021-10-24 10:55:43:866 [HTTP] {}
+2021-10-24 10:55:43:866 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:43:867 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:43:868 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/1F000000-0000-0000-7765-000000000000/displayed' to command name 'elementDisplayed'
+2021-10-24 10:55:43:869 [WD Proxy] Proxying [GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/1F000000-0000-0000-7765-000000000000/displayed] to [GET http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/1F000000-0000-0000-7765-000000000000/displayed] with no body
+2021-10-24 10:55:43:945 [WD Proxy] Got response with status 200: {"value":false,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:43:945 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:43:946 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/1F000000-0000-0000-7765-000000000000/displayed 200 80 ms - 66
+2021-10-24 10:55:43:946 [HTTP] 
+2021-10-24 10:55:44:448 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:44:448 [HTTP] {}
+2021-10-24 10:55:44:449 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:44:449 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:44:450 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:44:450 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 2 ms - 22
+2021-10-24 10:55:44:451 [HTTP] 
+2021-10-24 10:55:44:455 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:44:455 [HTTP] {"using":"id","value":"Welcome to Meerkat"}
+2021-10-24 10:55:44:455 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["id","Welcome to Meerkat","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:44:456 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:44:456 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:44:456 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:44:457 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:44:457 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"id","value":"Welcome to Meerkat"}
+2021-10-24 10:55:44:510 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"1F000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"1F000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:44:510 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1F000000-0000-0000-7765-000000000000","ELEMENT":"1F000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:44:511 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 56 ms - 137
+2021-10-24 10:55:44:511 [HTTP] 
+2021-10-24 10:55:44:513 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/1F000000-0000-0000-7765-000000000000/displayed
+2021-10-24 10:55:44:513 [HTTP] {}
+2021-10-24 10:55:44:514 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:44:514 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:44:515 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/1F000000-0000-0000-7765-000000000000/displayed' to command name 'elementDisplayed'
+2021-10-24 10:55:44:515 [WD Proxy] Proxying [GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/1F000000-0000-0000-7765-000000000000/displayed] to [GET http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/1F000000-0000-0000-7765-000000000000/displayed] with no body
+2021-10-24 10:55:44:548 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:44:548 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:44:548 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/1F000000-0000-0000-7765-000000000000/displayed 200 35 ms - 65
+2021-10-24 10:55:44:548 [HTTP] 
+2021-10-24 10:55:44:550 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:44:551 [HTTP] {}
+2021-10-24 10:55:44:551 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:44:551 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:44:552 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:44:552 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 2 ms - 22
+2021-10-24 10:55:44:552 [HTTP] 
+2021-10-24 10:55:44:556 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:44:557 [HTTP] {"using":"id","value":"showcase-continue"}
+2021-10-24 10:55:44:557 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["id","showcase-continue","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:44:557 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:44:557 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:44:557 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:44:558 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:44:558 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"id","value":"showcase-continue"}
+2021-10-24 10:55:44:608 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"21000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"21000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:44:608 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"21000000-0000-0000-7765-000000000000","ELEMENT":"21000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:44:609 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 52 ms - 137
+2021-10-24 10:55:44:609 [HTTP] 
+2021-10-24 10:55:44:613 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/21000000-0000-0000-7765-000000000000/click
+2021-10-24 10:55:44:613 [HTTP] {"id":"21000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:44:613 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:44:613 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:44:614 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/21000000-0000-0000-7765-000000000000/click' to command name 'click'
+2021-10-24 10:55:44:614 [WD Proxy] Proxying [POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/21000000-0000-0000-7765-000000000000/click] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/21000000-0000-0000-7765-000000000000/click] with body: {"id":"21000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:46:125 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:46:125 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:46:126 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/21000000-0000-0000-7765-000000000000/click 200 1513 ms - 65
+2021-10-24 10:55:46:126 [HTTP] 
+2021-10-24 10:55:46:129 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:46:129 [HTTP] {}
+2021-10-24 10:55:46:129 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:46:129 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:46:130 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:46:130 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 1 ms - 22
+2021-10-24 10:55:46:130 [HTTP] 
+2021-10-24 10:55:46:134 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:46:134 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeStaticText[`label == \"Find your nearest reward\"`]"}
+2021-10-24 10:55:46:135 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeStaticText[`label == \"Find your nearest reward\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:46:135 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:46:135 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:46:135 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:46:136 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:46:136 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Find your nearest reward\"`]"}
+2021-10-24 10:55:46:220 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"32000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"32000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:46:221 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"32000000-0000-0000-7765-000000000000","ELEMENT":"32000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:46:221 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 87 ms - 137
+2021-10-24 10:55:46:221 [HTTP] 
+2021-10-24 10:55:46:223 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/32000000-0000-0000-7765-000000000000/displayed
+2021-10-24 10:55:46:223 [HTTP] {}
+2021-10-24 10:55:46:224 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:46:224 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:46:224 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/32000000-0000-0000-7765-000000000000/displayed' to command name 'elementDisplayed'
+2021-10-24 10:55:46:225 [WD Proxy] Proxying [GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/32000000-0000-0000-7765-000000000000/displayed] to [GET http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/32000000-0000-0000-7765-000000000000/displayed] with no body
+2021-10-24 10:55:46:272 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:46:272 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:46:273 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/32000000-0000-0000-7765-000000000000/displayed 200 50 ms - 65
+2021-10-24 10:55:46:273 [HTTP] 
+2021-10-24 10:55:46:275 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:46:275 [HTTP] {}
+2021-10-24 10:55:46:275 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:46:275 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:46:276 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:46:276 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 1 ms - 22
+2021-10-24 10:55:46:276 [HTTP] 
+2021-10-24 10:55:46:280 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:46:280 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeButton[`label == \"Use my location\"`]"}
+2021-10-24 10:55:46:280 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeButton[`label == \"Use my location\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:46:281 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:46:281 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:46:281 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:46:281 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:46:282 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeButton[`label == \"Use my location\"`]"}
+2021-10-24 10:55:46:354 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"34000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"34000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:46:354 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"34000000-0000-0000-7765-000000000000","ELEMENT":"34000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:46:355 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 75 ms - 137
+2021-10-24 10:55:46:355 [HTTP] 
+2021-10-24 10:55:46:359 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/34000000-0000-0000-7765-000000000000/click
+2021-10-24 10:55:46:359 [HTTP] {"id":"34000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:46:359 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:46:359 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:46:360 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/34000000-0000-0000-7765-000000000000/click' to command name 'click'
+2021-10-24 10:55:46:360 [WD Proxy] Proxying [POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/34000000-0000-0000-7765-000000000000/click] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/34000000-0000-0000-7765-000000000000/click] with body: {"id":"34000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:47:572 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:47:572 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:47:573 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/34000000-0000-0000-7765-000000000000/click 200 1214 ms - 65
+2021-10-24 10:55:47:573 [HTTP] 
+2021-10-24 10:55:47:576 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:47:576 [HTTP] {}
+2021-10-24 10:55:47:577 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:47:577 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:47:579 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:47:581 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 4 ms - 22
+2021-10-24 10:55:47:581 [HTTP] 
+2021-10-24 10:55:47:587 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:47:587 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeButton[`label == \"Allow While Using App\"`]"}
+2021-10-24 10:55:47:587 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeButton[`label == \"Allow While Using App\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:47:587 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:47:588 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:47:588 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:47:589 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:47:589 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeButton[`label == \"Allow While Using App\"`]"}
+2021-10-24 10:55:48:079 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"2D090000-0000-0000-A916-000000000000","element-6066-11e4-a52e-4f735466cecf":"2D090000-0000-0000-A916-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:48:080 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2D090000-0000-0000-A916-000000000000","ELEMENT":"2D090000-0000-0000-A916-000000000000"}
+2021-10-24 10:55:48:081 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 494 ms - 137
+2021-10-24 10:55:48:081 [HTTP] 
+2021-10-24 10:55:48:087 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/2D090000-0000-0000-A916-000000000000/click
+2021-10-24 10:55:48:088 [HTTP] {"id":"2D090000-0000-0000-A916-000000000000"}
+2021-10-24 10:55:48:089 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:48:089 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:48:090 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/2D090000-0000-0000-A916-000000000000/click' to command name 'click'
+2021-10-24 10:55:48:090 [WD Proxy] Proxying [POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/2D090000-0000-0000-A916-000000000000/click] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/2D090000-0000-0000-A916-000000000000/click] with body: {"id":"2D090000-0000-0000-A916-000000000000"}
+2021-10-24 10:55:48:944 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:48:944 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:48:945 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/2D090000-0000-0000-A916-000000000000/click 200 858 ms - 65
+2021-10-24 10:55:48:945 [HTTP] 
+2021-10-24 10:55:48:947 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:48:948 [HTTP] {}
+2021-10-24 10:55:48:949 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:48:949 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:48:951 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:48:952 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 5 ms - 22
+2021-10-24 10:55:48:953 [HTTP] 
+2021-10-24 10:55:48:958 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:48:959 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeButton[`label == \"Next\"`]"}
+2021-10-24 10:55:48:959 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeButton[`label == \"Next\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:48:959 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:48:959 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:48:959 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:48:960 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:48:960 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeButton[`label == \"Next\"`]"}
+2021-10-24 10:55:49:032 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"34000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"34000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:49:033 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"34000000-0000-0000-7765-000000000000","ELEMENT":"34000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:49:035 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 76 ms - 137
+2021-10-24 10:55:49:035 [HTTP] 
+2021-10-24 10:55:49:039 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/34000000-0000-0000-7765-000000000000/click
+2021-10-24 10:55:49:039 [HTTP] {"id":"34000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:49:040 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:49:040 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:49:040 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/34000000-0000-0000-7765-000000000000/click' to command name 'click'
+2021-10-24 10:55:49:041 [WD Proxy] Proxying [POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/34000000-0000-0000-7765-000000000000/click] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/34000000-0000-0000-7765-000000000000/click] with body: {"id":"34000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:49:307 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:49:307 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:49:308 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/34000000-0000-0000-7765-000000000000/click 200 268 ms - 65
+2021-10-24 10:55:49:308 [HTTP] 
+2021-10-24 10:55:49:315 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:49:315 [HTTP] {}
+2021-10-24 10:55:49:315 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:49:316 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:49:316 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:49:317 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 2 ms - 22
+2021-10-24 10:55:49:317 [HTTP] 
+2021-10-24 10:55:49:322 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:49:322 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeStaticText[`label == \"Get handy alerts\"`]"}
+2021-10-24 10:55:49:322 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeStaticText[`label == \"Get handy alerts\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:49:323 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:49:323 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:49:323 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:49:324 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:49:324 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Get handy alerts\"`]"}
+2021-10-24 10:55:49:412 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"46000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"46000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:49:413 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"46000000-0000-0000-7765-000000000000","ELEMENT":"46000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:49:413 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 91 ms - 137
+2021-10-24 10:55:49:413 [HTTP] 
+2021-10-24 10:55:49:416 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/46000000-0000-0000-7765-000000000000/displayed
+2021-10-24 10:55:49:416 [HTTP] {}
+2021-10-24 10:55:49:416 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:49:417 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:49:417 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/46000000-0000-0000-7765-000000000000/displayed' to command name 'elementDisplayed'
+2021-10-24 10:55:49:418 [WD Proxy] Proxying [GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/46000000-0000-0000-7765-000000000000/displayed] to [GET http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/46000000-0000-0000-7765-000000000000/displayed] with no body
+2021-10-24 10:55:49:467 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:49:467 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:49:468 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/46000000-0000-0000-7765-000000000000/displayed 200 52 ms - 65
+2021-10-24 10:55:49:468 [HTTP] 
+2021-10-24 10:55:49:470 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:49:470 [HTTP] {}
+2021-10-24 10:55:49:471 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:49:471 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:49:471 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:49:472 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 2 ms - 22
+2021-10-24 10:55:49:472 [HTTP] 
+2021-10-24 10:55:49:476 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:49:477 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeStaticText[`label == \"Allow notifications\"`]"}
+2021-10-24 10:55:49:477 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeStaticText[`label == \"Allow notifications\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:49:477 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:49:478 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:49:478 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:49:478 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:49:479 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Allow notifications\"`]"}
+2021-10-24 10:55:49:559 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4A000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:49:560 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-7765-000000000000","ELEMENT":"4A000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:49:560 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 84 ms - 137
+2021-10-24 10:55:49:561 [HTTP] 
+2021-10-24 10:55:49:566 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/4A000000-0000-0000-7765-000000000000/click
+2021-10-24 10:55:49:567 [HTTP] {"id":"4A000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:49:567 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:49:568 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:49:569 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/4A000000-0000-0000-7765-000000000000/click' to command name 'click'
+2021-10-24 10:55:49:569 [WD Proxy] Proxying [POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/4A000000-0000-0000-7765-000000000000/click] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/4A000000-0000-0000-7765-000000000000/click] with body: {"id":"4A000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:50:767 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:50:767 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:50:769 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/4A000000-0000-0000-7765-000000000000/click 200 1203 ms - 65
+2021-10-24 10:55:50:770 [HTTP] 
+2021-10-24 10:55:50:772 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:50:772 [HTTP] {}
+2021-10-24 10:55:50:772 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:50:773 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:50:773 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:50:774 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 2 ms - 22
+2021-10-24 10:55:50:774 [HTTP] 
+2021-10-24 10:55:50:777 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:50:778 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeButton[`label == \"Allow\"`]"}
+2021-10-24 10:55:50:778 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeButton[`label == \"Allow\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:50:778 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:50:778 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:50:778 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:50:779 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:50:779 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeButton[`label == \"Allow\"`]"}
+2021-10-24 10:55:50:904 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"52090000-0000-0000-A916-000000000000","element-6066-11e4-a52e-4f735466cecf":"52090000-0000-0000-A916-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:50:905 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"52090000-0000-0000-A916-000000000000","ELEMENT":"52090000-0000-0000-A916-000000000000"}
+2021-10-24 10:55:50:905 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 128 ms - 137
+2021-10-24 10:55:50:906 [HTTP] 
+2021-10-24 10:55:50:910 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/52090000-0000-0000-A916-000000000000/click
+2021-10-24 10:55:50:910 [HTTP] {"id":"52090000-0000-0000-A916-000000000000"}
+2021-10-24 10:55:50:910 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:50:910 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:50:911 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/52090000-0000-0000-A916-000000000000/click' to command name 'click'
+2021-10-24 10:55:50:911 [WD Proxy] Proxying [POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/52090000-0000-0000-A916-000000000000/click] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/52090000-0000-0000-A916-000000000000/click] with body: {"id":"52090000-0000-0000-A916-000000000000"}
+2021-10-24 10:55:51:623 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:51:624 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:51:625 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/52090000-0000-0000-A916-000000000000/click 200 715 ms - 65
+2021-10-24 10:55:51:625 [HTTP] 
+2021-10-24 10:55:51:632 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:51:632 [HTTP] {}
+2021-10-24 10:55:51:633 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:51:633 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:51:634 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:51:635 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 3 ms - 22
+2021-10-24 10:55:51:635 [HTTP] 
+2021-10-24 10:55:51:640 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:51:640 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeButton[`label == \"Next\"`]"}
+2021-10-24 10:55:51:642 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeButton[`label == \"Next\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:51:644 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:51:645 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:51:645 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:51:647 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:51:648 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeButton[`label == \"Next\"`]"}
+2021-10-24 10:55:51:719 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"48000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"48000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:51:719 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"48000000-0000-0000-7765-000000000000","ELEMENT":"48000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:51:720 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 80 ms - 137
+2021-10-24 10:55:51:720 [HTTP] 
+2021-10-24 10:55:51:724 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/48000000-0000-0000-7765-000000000000/click
+2021-10-24 10:55:51:725 [HTTP] {"id":"48000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:51:725 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:51:726 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:51:727 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/48000000-0000-0000-7765-000000000000/click' to command name 'click'
+2021-10-24 10:55:51:728 [WD Proxy] Proxying [POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/48000000-0000-0000-7765-000000000000/click] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/48000000-0000-0000-7765-000000000000/click] with body: {"id":"48000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:52:083 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:52:083 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:52:084 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/48000000-0000-0000-7765-000000000000/click 200 359 ms - 65
+2021-10-24 10:55:52:084 [HTTP] 
+2021-10-24 10:55:52:089 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:52:090 [HTTP] {}
+2021-10-24 10:55:52:091 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:52:091 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:52:091 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:52:092 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 3 ms - 22
+2021-10-24 10:55:52:092 [HTTP] 
+2021-10-24 10:55:52:097 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:52:097 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeStaticText[`label == \"To make the most of the Meerkat app, sign in with your comparethemarket.com account.\"`]"}
+2021-10-24 10:55:52:098 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeStaticText[`label == \"To make the most of the Meerkat app, sign in with your comparethemarket.com account.\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:52:099 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:52:099 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:52:099 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:52:100 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:52:100 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"To make the most of the Meerkat app, sign in with your comparethemarket.com account.\"`]"}
+2021-10-24 10:55:52:200 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"54000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"54000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:52:201 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"54000000-0000-0000-7765-000000000000","ELEMENT":"54000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:52:201 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 104 ms - 137
+2021-10-24 10:55:52:201 [HTTP] 
+2021-10-24 10:55:52:203 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/54000000-0000-0000-7765-000000000000/displayed
+2021-10-24 10:55:52:204 [HTTP] {}
+2021-10-24 10:55:52:204 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:52:204 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:52:206 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/54000000-0000-0000-7765-000000000000/displayed' to command name 'elementDisplayed'
+2021-10-24 10:55:52:206 [WD Proxy] Proxying [GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/54000000-0000-0000-7765-000000000000/displayed] to [GET http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/54000000-0000-0000-7765-000000000000/displayed] with no body
+2021-10-24 10:55:52:257 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:52:258 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:52:258 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/54000000-0000-0000-7765-000000000000/displayed 200 55 ms - 65
+2021-10-24 10:55:52:258 [HTTP] 
+2021-10-24 10:55:52:261 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:52:261 [HTTP] {}
+2021-10-24 10:55:52:261 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:52:261 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:52:262 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:52:263 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 2 ms - 22
+2021-10-24 10:55:52:263 [HTTP] 
+2021-10-24 10:55:52:266 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:52:266 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeButton[`label == \"Sign in\"`]"}
+2021-10-24 10:55:52:267 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeButton[`label == \"Sign in\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:52:267 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:52:267 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:52:267 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:52:268 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:52:268 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeButton[`label == \"Sign in\"`]"}
+2021-10-24 10:55:52:348 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"59000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"59000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:52:349 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"59000000-0000-0000-7765-000000000000","ELEMENT":"59000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:52:349 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 83 ms - 137
+2021-10-24 10:55:52:350 [HTTP] 
+2021-10-24 10:55:52:353 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/59000000-0000-0000-7765-000000000000/click
+2021-10-24 10:55:52:353 [HTTP] {"id":"59000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:52:354 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:52:354 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:52:354 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/59000000-0000-0000-7765-000000000000/click' to command name 'click'
+2021-10-24 10:55:52:355 [WD Proxy] Proxying [POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/59000000-0000-0000-7765-000000000000/click] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/59000000-0000-0000-7765-000000000000/click] with body: {"id":"59000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:52:789 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:52:789 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:52:790 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/59000000-0000-0000-7765-000000000000/click 200 437 ms - 65
+2021-10-24 10:55:52:790 [HTTP] 
+2021-10-24 10:55:52:792 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/source
+2021-10-24 10:55:52:792 [HTTP] {}
+2021-10-24 10:55:52:792 [W3C (1e873750)] Calling AppiumDriver.getPageSource() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:52:792 [XCUITest] Executing command 'getPageSource'
+2021-10-24 10:55:52:793 [WD Proxy] Matched '/source' to command name 'getPageSource'
+2021-10-24 10:55:52:793 [WD Proxy] Proxying [GET /source] to [GET http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/source] with no body
+2021-10-24 10:55:54:129 [WD Proxy] Got response with status 200: {"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Meerkat Dev\" label=\"Meerkat Dev\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\...
+2021-10-24 10:55:54:136 [W3C (1e873750)] Responding to client with driver.getPageSource() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><AppiumAUT><XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Meerkat Dev\" label=\"Meerkat Dev\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\...
+2021-10-24 10:55:54:137 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/source 200 1345 ms - 13787
+2021-10-24 10:55:54:137 [HTTP] 
+2021-10-24 10:55:54:141 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:54:141 [HTTP] {}
+2021-10-24 10:55:54:141 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:54:141 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:54:142 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:54:142 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 1 ms - 22
+2021-10-24 10:55:54:142 [HTTP] 
+2021-10-24 10:55:54:145 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:54:145 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeStaticText[`label == \"This should be the same email address you use to sign in to comparethemarket.com\"`]"}
+2021-10-24 10:55:54:146 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeStaticText[`label == \"This should be the same email address you use to sign in to comparethemarket.com\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:54:146 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:54:146 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:54:146 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:54:147 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:54:147 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"This should be the same email address you use to sign in to comparethemarket.com\"`]"}
+2021-10-24 10:55:54:259 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"6E000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"6E000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:54:260 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6E000000-0000-0000-7765-000000000000","ELEMENT":"6E000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:54:261 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 115 ms - 137
+2021-10-24 10:55:54:261 [HTTP] 
+2021-10-24 10:55:54:268 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6E000000-0000-0000-7765-000000000000/displayed
+2021-10-24 10:55:54:269 [HTTP] {}
+2021-10-24 10:55:54:269 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:54:270 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:54:270 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6E000000-0000-0000-7765-000000000000/displayed' to command name 'elementDisplayed'
+2021-10-24 10:55:54:270 [WD Proxy] Proxying [GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6E000000-0000-0000-7765-000000000000/displayed] to [GET http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/6E000000-0000-0000-7765-000000000000/displayed] with no body
+2021-10-24 10:55:54:353 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:54:353 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:54:354 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6E000000-0000-0000-7765-000000000000/displayed 200 85 ms - 65
+2021-10-24 10:55:54:354 [HTTP] 
+2021-10-24 10:55:54:356 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:54:356 [HTTP] {}
+2021-10-24 10:55:54:358 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:54:359 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:54:359 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:54:360 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 4 ms - 22
+2021-10-24 10:55:54:360 [HTTP] 
+2021-10-24 10:55:54:364 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:54:364 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeTextField[`name == \"textfield-email\"`]"}
+2021-10-24 10:55:54:365 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeTextField[`name == \"textfield-email\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:54:365 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:54:365 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:54:365 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:54:366 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:54:366 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeTextField[`name == \"textfield-email\"`]"}
+2021-10-24 10:55:54:462 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"6D000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"6D000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:54:462 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6D000000-0000-0000-7765-000000000000","ELEMENT":"6D000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:54:463 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 98 ms - 137
+2021-10-24 10:55:54:464 [HTTP] 
+2021-10-24 10:55:54:467 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6D000000-0000-0000-7765-000000000000/clear
+2021-10-24 10:55:54:468 [HTTP] {"id":"6D000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:54:468 [W3C (1e873750)] Calling AppiumDriver.clear() with args: ["6D000000-0000-0000-7765-000000000000","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:54:468 [XCUITest] Executing command 'clear'
+2021-10-24 10:55:54:470 [WD Proxy] Matched '/element/6D000000-0000-0000-7765-000000000000/clear' to command name 'clear'
+2021-10-24 10:55:54:470 [WD Proxy] Proxying [POST /element/6D000000-0000-0000-7765-000000000000/clear] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/6D000000-0000-0000-7765-000000000000/clear] with no body
+2021-10-24 10:55:56:915 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:56:915 [W3C (1e873750)] Responding to client with driver.clear() result: null
+2021-10-24 10:55:56:916 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6D000000-0000-0000-7765-000000000000/clear 200 2448 ms - 14
+2021-10-24 10:55:56:916 [HTTP] 
+2021-10-24 10:55:56:918 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:56:919 [HTTP] {}
+2021-10-24 10:55:56:919 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:56:919 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:56:920 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:56:920 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 2 ms - 22
+2021-10-24 10:55:56:920 [HTTP] 
+2021-10-24 10:55:56:923 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:56:924 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeTextField[`name == \"textfield-email\"`]"}
+2021-10-24 10:55:56:924 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeTextField[`name == \"textfield-email\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:56:924 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:56:924 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:56:924 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:56:925 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:56:925 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeTextField[`name == \"textfield-email\"`]"}
+2021-10-24 10:55:57:061 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"6D000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"6D000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:57:061 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6D000000-0000-0000-7765-000000000000","ELEMENT":"6D000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:57:062 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 138 ms - 137
+2021-10-24 10:55:57:062 [HTTP] 
+2021-10-24 10:55:57:069 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6D000000-0000-0000-7765-000000000000/value
+2021-10-24 10:55:57:070 [HTTP] {"id":"6D000000-0000-0000-7765-000000000000","text":"mm.active@emailreaction.org","value":["m","m",".","a","c","t","i","v","e","@","e","m","a","i","l","r","e","a","c","t","i","o","n",".","o","r","g"]}
+2021-10-24 10:55:57:070 [W3C (1e873750)] Calling AppiumDriver.setValue() with args: [["m","m",".","a","c","t","i","v","e","@","e","m","a","i","l","r","e","a","c","t","i","o","n",".","o","r","g"],"6D000000-0000-0000-7765-000000000000","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:57:070 [XCUITest] Executing command 'setValue'
+2021-10-24 10:55:57:071 [WD Proxy] Matched '/element/6D000000-0000-0000-7765-000000000000/value' to command name 'setValue'
+2021-10-24 10:55:57:071 [Protocol Converter] Added 'text' property "mm.active@emailreaction.org" to 'setValue' request body
+2021-10-24 10:55:57:072 [WD Proxy] Proxying [POST /element/6D000000-0000-0000-7765-000000000000/value] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/6D000000-0000-0000-7765-000000000000/value] with body: {"value":["m","m",".","a","c","t","i","v","e","@","e","m","a","i","l","r","e","a","c","t","i","o","n",".","o","r","g"],"text":"mm.active@emailreaction.org"}
+2021-10-24 10:55:57:652 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:57:652 [W3C (1e873750)] Responding to client with driver.setValue() result: null
+2021-10-24 10:55:57:653 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6D000000-0000-0000-7765-000000000000/value 200 583 ms - 14
+2021-10-24 10:55:57:653 [HTTP] 
+2021-10-24 10:55:57:655 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:57:655 [HTTP] {}
+2021-10-24 10:55:57:655 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:57:656 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:57:656 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:57:656 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 1 ms - 22
+2021-10-24 10:55:57:657 [HTTP] 
+2021-10-24 10:55:57:660 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:57:660 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeButton[`label == \"Continue\"`]"}
+2021-10-24 10:55:57:660 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeButton[`label == \"Continue\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:57:660 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:57:660 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:57:661 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:57:661 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:57:661 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeButton[`label == \"Continue\"`]"}
+2021-10-24 10:55:57:781 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"6F000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"6F000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:57:781 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6F000000-0000-0000-7765-000000000000","ELEMENT":"6F000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:57:782 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 122 ms - 137
+2021-10-24 10:55:57:782 [HTTP] 
+2021-10-24 10:55:57:786 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6F000000-0000-0000-7765-000000000000/click
+2021-10-24 10:55:57:786 [HTTP] {"id":"6F000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:57:786 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:57:786 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:57:787 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6F000000-0000-0000-7765-000000000000/click' to command name 'click'
+2021-10-24 10:55:57:787 [WD Proxy] Proxying [POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6F000000-0000-0000-7765-000000000000/click] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/6F000000-0000-0000-7765-000000000000/click] with body: {"id":"6F000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:58:075 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:58:075 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:58:076 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/6F000000-0000-0000-7765-000000000000/click 200 290 ms - 65
+2021-10-24 10:55:58:076 [HTTP] 
+2021-10-24 10:55:58:078 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:58:078 [HTTP] {}
+2021-10-24 10:55:58:078 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:58:079 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:58:079 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:58:080 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 1 ms - 22
+2021-10-24 10:55:58:080 [HTTP] 
+2021-10-24 10:55:58:084 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:58:084 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeButton[`label == \"Sign in\"`]"}
+2021-10-24 10:55:58:084 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeButton[`label == \"Sign in\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:58:085 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:58:085 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:58:085 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:58:086 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:58:086 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeButton[`label == \"Sign in\"`]"}
+2021-10-24 10:55:58:217 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"74000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"74000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:58:218 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"74000000-0000-0000-7765-000000000000","ELEMENT":"74000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:58:218 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 134 ms - 137
+2021-10-24 10:55:58:219 [HTTP] 
+2021-10-24 10:55:58:220 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/74000000-0000-0000-7765-000000000000/displayed
+2021-10-24 10:55:58:220 [HTTP] {}
+2021-10-24 10:55:58:220 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:58:220 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:58:221 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/74000000-0000-0000-7765-000000000000/displayed' to command name 'elementDisplayed'
+2021-10-24 10:55:58:221 [WD Proxy] Proxying [GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/74000000-0000-0000-7765-000000000000/displayed] to [GET http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/74000000-0000-0000-7765-000000000000/displayed] with no body
+2021-10-24 10:55:58:288 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:58:288 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:58:289 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/74000000-0000-0000-7765-000000000000/displayed 200 69 ms - 65
+2021-10-24 10:55:58:289 [HTTP] 
+2021-10-24 10:55:58:290 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:58:290 [HTTP] {}
+2021-10-24 10:55:58:291 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:58:291 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:58:291 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:58:292 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 1 ms - 22
+2021-10-24 10:55:58:292 [HTTP] 
+2021-10-24 10:55:58:295 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:58:295 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeButton[`label == \"Sign in\"`]"}
+2021-10-24 10:55:58:295 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeButton[`label == \"Sign in\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:58:296 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:58:296 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:58:296 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:58:296 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:58:296 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeButton[`label == \"Sign in\"`]"}
+2021-10-24 10:55:58:446 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"74000000-0000-0000-7765-000000000000","element-6066-11e4-a52e-4f735466cecf":"74000000-0000-0000-7765-000000000000"},"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:58:446 [W3C (1e873750)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"74000000-0000-0000-7765-000000000000","ELEMENT":"74000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:58:447 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 200 152 ms - 137
+2021-10-24 10:55:58:447 [HTTP] 
+2021-10-24 10:55:58:450 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/74000000-0000-0000-7765-000000000000/click
+2021-10-24 10:55:58:450 [HTTP] {"id":"74000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:58:451 [W3C (1e873750)] Driver proxy active, passing request on via HTTP proxy
+2021-10-24 10:55:58:451 [XCUITest] Executing command 'proxyReqRes'
+2021-10-24 10:55:58:451 [WD Proxy] Matched '/wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/74000000-0000-0000-7765-000000000000/click' to command name 'click'
+2021-10-24 10:55:58:451 [WD Proxy] Proxying [POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/74000000-0000-0000-7765-000000000000/click] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element/74000000-0000-0000-7765-000000000000/click] with body: {"id":"74000000-0000-0000-7765-000000000000"}
+2021-10-24 10:55:58:787 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"B50D9FD1-8790-42C2-8EF2-1594DF4CD33C"}
+2021-10-24 10:55:58:787 [WD Proxy] Replacing sessionId B50D9FD1-8790-42C2-8EF2-1594DF4CD33C with 1e873750-b4bc-4c8d-905b-5087e63dbc35
+2021-10-24 10:55:58:788 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element/74000000-0000-0000-7765-000000000000/click 200 338 ms - 65
+2021-10-24 10:55:58:788 [HTTP] 
+2021-10-24 10:55:58:796 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:55:58:796 [HTTP] {}
+2021-10-24 10:55:58:797 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:58:797 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:55:58:797 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:55:58:798 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 1 ms - 22
+2021-10-24 10:55:58:798 [HTTP] 
+2021-10-24 10:55:58:801 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:55:58:801 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:55:58:801 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:55:58:801 [XCUITest] Executing command 'findElement'
+2021-10-24 10:55:58:802 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:55:58:802 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:55:58:802 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:58:802 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:55:58:898 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:55:58:899 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:55:58:900 [BaseDriver] Waited for 98 ms so far
+2021-10-24 10:55:59:401 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:59:401 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:55:59:442 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:55:59:442 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:55:59:442 [BaseDriver] Waited for 640 ms so far
+2021-10-24 10:55:59:945 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:55:59:945 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:55:59:987 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:55:59:988 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:55:59:988 [BaseDriver] Waited for 1186 ms so far
+2021-10-24 10:56:00:493 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:00:493 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:00:533 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:00:533 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:00:533 [BaseDriver] Waited for 1731 ms so far
+2021-10-24 10:56:01:039 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:01:040 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:01:078 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:01:079 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:01:079 [BaseDriver] Waited for 2277 ms so far
+2021-10-24 10:56:01:583 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:01:583 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:01:624 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:01:624 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:01:624 [BaseDriver] Waited for 2822 ms so far
+2021-10-24 10:56:02:130 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:02:132 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:02:208 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:02:209 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:02:209 [BaseDriver] Waited for 3407 ms so far
+2021-10-24 10:56:02:709 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:02:710 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:02:752 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:02:752 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:02:752 [BaseDriver] Waited for 3950 ms so far
+2021-10-24 10:56:03:255 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:03:255 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:03:294 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:03:294 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:03:294 [BaseDriver] Waited for 4492 ms so far
+2021-10-24 10:56:03:798 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:03:799 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:03:841 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:03:841 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:03:842 [WD Proxy] Matched '/source' to command name 'getPageSource'
+2021-10-24 10:56:03:842 [WD Proxy] Proxying [GET /source] to [GET http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/source] with no body
+2021-10-24 10:56:04:293 [WD Proxy] Got response with status 200: {"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Meerkat Dev\" label=\"Meerkat Dev\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\...
+2021-10-24 10:56:04:296 [BaseDriver] Error finding element: An element could not be located on the page using the given search parameters.
+2021-10-24 10:56:04:296 [BaseDriver] Page source requested through 'printPageSourceOnFindFailure':
+2021-10-24 10:56:04:297 [BaseDriver] <?xml version="1.0" encoding="UTF-8"?><AppiumAUT><XCUIElementTypeApplication type="XCUIElementTypeApplication" name="Meerkat Dev" label="Meerkat Dev" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:04:297 [BaseDriver]   <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:04:297 [BaseDriver]     <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:04:297 [BaseDriver]       <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:04:297 [BaseDriver]         <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:04:297 [BaseDriver]           <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:04:297 [BaseDriver]             <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:04:298 [BaseDriver]               <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:04:298 [BaseDriver]                 <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="90" index="0">
+2021-10-24 10:56:04:298 [BaseDriver]                   <XCUIElementTypeButton type="XCUIElementTypeButton" name="back modern icon" label="back modern icon" enabled="true" visible="true" accessible="true" x="0" y="42" width="44" height="44" index="0">
+2021-10-24 10:56:04:298 [BaseDriver]                     <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" accessible="false" x="0" y="42" width="0" height="0" index="0"/>
+2021-10-24 10:56:04:298 [BaseDriver]                   </XCUIElementTypeButton>
+2021-10-24 10:56:04:298 [BaseDriver]                   <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Sign in" name="Sign in" label="Sign in" enabled="true" visible="true" accessible="true" x="188" y="43" width="52" height="21" index="1"/>
+2021-10-24 10:56:04:298 [BaseDriver]                   <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="with your comparethemarket account" name="with your comparethemarket account" label="with your comparethemarket account" enabled="true" visible="true" accessible="true" x="120" y="65" width="188" height="15" index="2"/>
+2021-10-24 10:56:04:298 [BaseDriver]                 </XCUIElementTypeOther>
+2021-10-24 10:56:04:298 [BaseDriver]                 <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="90" width="428" height="802" index="1">
+2021-10-24 10:56:04:298 [BaseDriver]                   <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="-428" y="90" width="428" height="802" index="0">
+2021-10-24 10:56:04:298 [BaseDriver]                     <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="-421" y="90" width="414" height="802" index="0">
+2021-10-24 10:56:04:299 [BaseDriver]                       <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" accessible="false" x="-391" y="120" width="200" height="34" index="0"/>
+2021-10-24 10:56:04:299 [BaseDriver]                       <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Your email address" name="Your email address" label="Your email address" enabled="true" visible="false" accessible="true" x="-391" y="176" width="354" height="19" index="1"/>
+2021-10-24 10:56:04:299 [BaseDriver]                       <XCUIElementTypeTextField type="XCUIElementTypeTextField" value="mm.active@emailreaction.org" name="textfield-email" label="" enabled="true" visible="false" accessible="true" x="-391" y="184" width="354" height="45" index="2"/>
+2021-10-24 10:56:04:299 [BaseDriver]                       <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="This should be the same email address you use to sign in to comparethemarket.com" name="This should be the same email address you use to sign in to comparethemarket.com" label="This should be the same email address you use to sign in to comparethemarket.com" enabled="true" visible="false" accessible="true" x="-391" y="260" width="354" height="42" index="3"/>
+2021-10-24 10:56:04:299 [BaseDriver]                       <XCUIElementTypeButton type="XCUIElementTypeButton" name="continue-button-email" label="Continue" enabled="true" visible="false" accessible="true" x="-391" y="818" width="354" height="50" index="4">
+2021-10-24 10:56:04:299 [BaseDriver]                         <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Continue" name="Continue" label="Continue" enabled="true" visible="false" accessible="false" x="-249" y="832" width="70" height="22" index="0"/>
+2021-10-24 10:56:04:299 [BaseDriver]                       </XCUIElementTypeButton>
+2021-10-24 10:56:04:299 [BaseDriver]                     </XCUIElementTypeOther>
+2021-10-24 10:56:04:299 [BaseDriver]                   </XCUIElementTypeOther>
+2021-10-24 10:56:04:299 [BaseDriver]                   <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="90" width="428" height="802" index="1">
+2021-10-24 10:56:04:299 [BaseDriver]                     <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="7" y="90" width="414" height="802" index="0">
+2021-10-24 10:56:04:299 [BaseDriver]                       <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" accessible="false" x="37" y="120" width="200" height="34" index="0"/>
+2021-10-24 10:56:04:299 [BaseDriver]                       <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Your password" name="Your password" label="Your password" enabled="true" visible="true" accessible="true" x="37" y="176" width="354" height="19" index="1"/>
+2021-10-24 10:56:04:299 [BaseDriver]                       <XCUIElementTypeSecureTextField type="XCUIElementTypeSecureTextField" value="•••••••••" name="textfield-password" label="" enabled="true" visible="true" accessible="true" x="37" y="184" width="354" height="45" index="2"/>
+2021-10-24 10:56:04:300 [BaseDriver]                       <XCUIElementTypeButton type="XCUIElementTypeButton" name="show-button-password" label="Show" enabled="true" visible="true" accessible="true" x="346" y="194" width="45" height="30" index="3">
+2021-10-24 10:56:04:300 [BaseDriver]                         <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Show" name="Show" label="Show" enabled="true" visible="true" accessible="false" x="354" y="201" width="29" height="16" index="0"/>
+2021-10-24 10:56:04:300 [BaseDriver]                       </XCUIElementTypeButton>
+2021-10-24 10:56:04:300 [BaseDriver]                       <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Oops! Wrong email or password." name="error-password" label="Oops! Wrong email or password." enabled="true" visible="true" accessible="true" x="37" y="233" width="354" height="19" index="4"/>
+2021-10-24 10:56:04:300 [BaseDriver]                       <XCUIElementTypeButton type="XCUIElementTypeButton" name="signin-button" label="Sign in" enabled="true" visible="true" accessible="true" x="37" y="784" width="354" height="51" index="5">
+2021-10-24 10:56:04:300 [BaseDriver]                         <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Sign in" name="Sign in" label="Sign in" enabled="true" visible="true" accessible="false" x="188" y="799" width="52" height="22" index="0"/>
+2021-10-24 10:56:04:300 [BaseDriver]                       </XCUIElementTypeButton>
+2021-10-24 10:56:04:300 [BaseDriver]                       <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="I don't know my password" name="forgot-password" label="I don't know my password" enabled="true" visible="true" accessible="true" x="37" y="848" width="354" height="20" index="6"/>
+2021-10-24 10:56:04:300 [BaseDriver]                     </XCUIElementTypeOther>
+2021-10-24 10:56:04:301 [BaseDriver]                   </XCUIElementTypeOther>
+2021-10-24 10:56:04:301 [BaseDriver]                 </XCUIElementTypeOther>
+2021-10-24 10:56:04:301 [BaseDriver]               </XCUIElementTypeOther>
+2021-10-24 10:56:04:301 [BaseDriver]             </XCUIElementTypeOther>
+2021-10-24 10:56:04:301 [BaseDriver]           </XCUIElementTypeOther>
+2021-10-24 10:56:04:301 [BaseDriver]         </XCUIElementTypeOther>
+2021-10-24 10:56:04:301 [BaseDriver]       </XCUIElementTypeOther>
+2021-10-24 10:56:04:301 [BaseDriver]     </XCUIElementTypeOther>
+2021-10-24 10:56:04:301 [BaseDriver]   </XCUIElementTypeWindow>
+2021-10-24 10:56:04:301 [BaseDriver]   <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="false" accessible="false" x="0" y="0" width="428" height="926" index="1">
+2021-10-24 10:56:04:301 [BaseDriver]     <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:04:301 [BaseDriver]       <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="428" height="926" index="0"/>
+2021-10-24 10:56:04:301 [BaseDriver]       <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="926" width="428" height="243" index="1"/>
+2021-10-24 10:56:04:301 [BaseDriver]     </XCUIElementTypeOther>
+2021-10-24 10:56:04:302 [BaseDriver]   </XCUIElementTypeWindow>
+2021-10-24 10:56:04:302 [BaseDriver] </XCUIElementTypeApplication></AppiumAUT>
+2021-10-24 10:56:04:335 [W3C (1e873750)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2021-10-24 10:56:04:335 [W3C (1e873750)]     at XCUITestDriver.doNativeFind (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:130:11)
+2021-10-24 10:56:04:335 [W3C (1e873750)]     at runMicrotasks (<anonymous>)
+2021-10-24 10:56:04:335 [W3C (1e873750)]     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-10-24 10:56:04:335 [W3C (1e873750)]     at XCUITestDriver.findNativeElementOrElements (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:90:10)
+2021-10-24 10:56:04:336 [W3C (1e873750)]     at XCUITestDriver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:23:12)
+2021-10-24 10:56:04:336 [W3C (1e873750)]     at XCUITestDriver.findElOrElsWithProcessing (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+2021-10-24 10:56:04:336 [W3C (1e873750)]     at XCUITestDriver.findElement (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2021-10-24 10:56:04:336 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 404 5535 ms - 1072
+2021-10-24 10:56:04:337 [HTTP] 
+2021-10-24 10:56:04:867 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:56:04:867 [HTTP] {}
+2021-10-24 10:56:04:868 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:56:04:868 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:56:04:869 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:56:04:869 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 2 ms - 22
+2021-10-24 10:56:04:869 [HTTP] 
+2021-10-24 10:56:04:873 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:56:04:873 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:04:873 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:56:04:873 [XCUITest] Executing command 'findElement'
+2021-10-24 10:56:04:874 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:56:04:874 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:56:04:874 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:04:874 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:04:913 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:04:913 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:04:914 [BaseDriver] Waited for 40 ms so far
+2021-10-24 10:56:05:420 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:05:420 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:05:459 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:05:460 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:05:460 [BaseDriver] Waited for 586 ms so far
+2021-10-24 10:56:05:965 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:05:965 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:06:007 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:06:007 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:06:007 [BaseDriver] Waited for 1133 ms so far
+2021-10-24 10:56:06:512 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:06:512 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:06:551 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:06:551 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:06:552 [BaseDriver] Waited for 1677 ms so far
+2021-10-24 10:56:07:056 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:07:056 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:07:098 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:07:098 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:07:098 [BaseDriver] Waited for 2224 ms so far
+2021-10-24 10:56:07:603 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:07:603 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:07:649 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:07:650 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:07:650 [BaseDriver] Waited for 2776 ms so far
+2021-10-24 10:56:08:152 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:08:152 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:08:193 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:08:194 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:08:194 [BaseDriver] Waited for 3320 ms so far
+2021-10-24 10:56:08:697 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:08:697 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:08:739 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:08:739 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:08:739 [BaseDriver] Waited for 3865 ms so far
+2021-10-24 10:56:09:243 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:09:243 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:09:284 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:09:285 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:09:285 [BaseDriver] Waited for 4411 ms so far
+2021-10-24 10:56:09:786 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:09:786 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:09:828 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:09:828 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:09:828 [BaseDriver] Waited for 4954 ms so far
+2021-10-24 10:56:10:334 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:10:334 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:10:376 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:10:376 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:10:377 [WD Proxy] Matched '/source' to command name 'getPageSource'
+2021-10-24 10:56:10:377 [WD Proxy] Proxying [GET /source] to [GET http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/source] with no body
+2021-10-24 10:56:10:819 [WD Proxy] Got response with status 200: {"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Meerkat Dev\" label=\"Meerkat Dev\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"428\" height=\"926\" index=\"0\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\...
+2021-10-24 10:56:10:822 [BaseDriver] Error finding element: An element could not be located on the page using the given search parameters.
+2021-10-24 10:56:10:822 [BaseDriver] Page source requested through 'printPageSourceOnFindFailure':
+2021-10-24 10:56:10:822 [BaseDriver] <?xml version="1.0" encoding="UTF-8"?><AppiumAUT><XCUIElementTypeApplication type="XCUIElementTypeApplication" name="Meerkat Dev" label="Meerkat Dev" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:10:822 [BaseDriver]   <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:10:822 [BaseDriver]     <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:10:822 [BaseDriver]       <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:10:823 [BaseDriver]         <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:10:823 [BaseDriver]           <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:10:823 [BaseDriver]             <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:10:823 [BaseDriver]               <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:10:823 [BaseDriver]                 <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="428" height="90" index="0">
+2021-10-24 10:56:10:823 [BaseDriver]                   <XCUIElementTypeButton type="XCUIElementTypeButton" name="back modern icon" label="back modern icon" enabled="true" visible="true" accessible="true" x="0" y="42" width="44" height="44" index="0">
+2021-10-24 10:56:10:823 [BaseDriver]                     <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" accessible="false" x="0" y="42" width="0" height="0" index="0"/>
+2021-10-24 10:56:10:823 [BaseDriver]                   </XCUIElementTypeButton>
+2021-10-24 10:56:10:823 [BaseDriver]                   <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Sign in" name="Sign in" label="Sign in" enabled="true" visible="true" accessible="true" x="188" y="43" width="52" height="21" index="1"/>
+2021-10-24 10:56:10:823 [BaseDriver]                   <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="with your comparethemarket account" name="with your comparethemarket account" label="with your comparethemarket account" enabled="true" visible="true" accessible="true" x="120" y="65" width="188" height="15" index="2"/>
+2021-10-24 10:56:10:823 [BaseDriver]                 </XCUIElementTypeOther>
+2021-10-24 10:56:10:823 [BaseDriver]                 <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="90" width="428" height="802" index="1">
+2021-10-24 10:56:10:823 [BaseDriver]                   <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="-428" y="90" width="428" height="802" index="0">
+2021-10-24 10:56:10:823 [BaseDriver]                     <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="-421" y="90" width="414" height="802" index="0">
+2021-10-24 10:56:10:823 [BaseDriver]                       <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" accessible="false" x="-391" y="120" width="200" height="34" index="0"/>
+2021-10-24 10:56:10:823 [BaseDriver]                       <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Your email address" name="Your email address" label="Your email address" enabled="true" visible="false" accessible="true" x="-391" y="176" width="354" height="19" index="1"/>
+2021-10-24 10:56:10:823 [BaseDriver]                       <XCUIElementTypeTextField type="XCUIElementTypeTextField" value="mm.active@emailreaction.org" name="textfield-email" label="" enabled="true" visible="false" accessible="true" x="-391" y="184" width="354" height="45" index="2"/>
+2021-10-24 10:56:10:824 [BaseDriver]                       <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="This should be the same email address you use to sign in to comparethemarket.com" name="This should be the same email address you use to sign in to comparethemarket.com" label="This should be the same email address you use to sign in to comparethemarket.com" enabled="true" visible="false" accessible="true" x="-391" y="260" width="354" height="42" index="3"/>
+2021-10-24 10:56:10:824 [BaseDriver]                       <XCUIElementTypeButton type="XCUIElementTypeButton" name="continue-button-email" label="Continue" enabled="true" visible="false" accessible="true" x="-391" y="818" width="354" height="50" index="4">
+2021-10-24 10:56:10:824 [BaseDriver]                         <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Continue" name="Continue" label="Continue" enabled="true" visible="false" accessible="false" x="-249" y="832" width="70" height="22" index="0"/>
+2021-10-24 10:56:10:824 [BaseDriver]                       </XCUIElementTypeButton>
+2021-10-24 10:56:10:824 [BaseDriver]                     </XCUIElementTypeOther>
+2021-10-24 10:56:10:824 [BaseDriver]                   </XCUIElementTypeOther>
+2021-10-24 10:56:10:824 [BaseDriver]                   <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="90" width="428" height="802" index="1">
+2021-10-24 10:56:10:824 [BaseDriver]                     <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="7" y="90" width="414" height="802" index="0">
+2021-10-24 10:56:10:824 [BaseDriver]                       <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="false" accessible="false" x="37" y="120" width="200" height="34" index="0"/>
+2021-10-24 10:56:10:824 [BaseDriver]                       <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Your password" name="Your password" label="Your password" enabled="true" visible="true" accessible="true" x="37" y="176" width="354" height="19" index="1"/>
+2021-10-24 10:56:10:824 [BaseDriver]                       <XCUIElementTypeSecureTextField type="XCUIElementTypeSecureTextField" value="•••••••••" name="textfield-password" label="" enabled="true" visible="true" accessible="true" x="37" y="184" width="354" height="45" index="2"/>
+2021-10-24 10:56:10:824 [BaseDriver]                       <XCUIElementTypeButton type="XCUIElementTypeButton" name="show-button-password" label="Show" enabled="true" visible="true" accessible="true" x="346" y="194" width="45" height="30" index="3">
+2021-10-24 10:56:10:824 [BaseDriver]                         <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Show" name="Show" label="Show" enabled="true" visible="true" accessible="false" x="354" y="201" width="29" height="16" index="0"/>
+2021-10-24 10:56:10:824 [BaseDriver]                       </XCUIElementTypeButton>
+2021-10-24 10:56:10:824 [BaseDriver]                       <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Oops! Wrong email or password." name="error-password" label="Oops! Wrong email or password." enabled="true" visible="true" accessible="true" x="37" y="233" width="354" height="19" index="4"/>
+2021-10-24 10:56:10:824 [BaseDriver]                       <XCUIElementTypeButton type="XCUIElementTypeButton" name="signin-button" label="Sign in" enabled="true" visible="true" accessible="true" x="37" y="784" width="354" height="51" index="5">
+2021-10-24 10:56:10:824 [BaseDriver]                         <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Sign in" name="Sign in" label="Sign in" enabled="true" visible="true" accessible="false" x="188" y="799" width="52" height="22" index="0"/>
+2021-10-24 10:56:10:824 [BaseDriver]                       </XCUIElementTypeButton>
+2021-10-24 10:56:10:825 [BaseDriver]                       <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="I don't know my password" name="forgot-password" label="I don't know my password" enabled="true" visible="true" accessible="true" x="37" y="848" width="354" height="20" index="6"/>
+2021-10-24 10:56:10:825 [BaseDriver]                     </XCUIElementTypeOther>
+2021-10-24 10:56:10:825 [BaseDriver]                   </XCUIElementTypeOther>
+2021-10-24 10:56:10:825 [BaseDriver]                 </XCUIElementTypeOther>
+2021-10-24 10:56:10:825 [BaseDriver]               </XCUIElementTypeOther>
+2021-10-24 10:56:10:825 [BaseDriver]             </XCUIElementTypeOther>
+2021-10-24 10:56:10:825 [BaseDriver]           </XCUIElementTypeOther>
+2021-10-24 10:56:10:825 [BaseDriver]         </XCUIElementTypeOther>
+2021-10-24 10:56:10:825 [BaseDriver]       </XCUIElementTypeOther>
+2021-10-24 10:56:10:825 [BaseDriver]     </XCUIElementTypeOther>
+2021-10-24 10:56:10:825 [BaseDriver]   </XCUIElementTypeWindow>
+2021-10-24 10:56:10:825 [BaseDriver]   <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="false" accessible="false" x="0" y="0" width="428" height="926" index="1">
+2021-10-24 10:56:10:825 [BaseDriver]     <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="428" height="926" index="0">
+2021-10-24 10:56:10:825 [BaseDriver]       <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="428" height="926" index="0"/>
+2021-10-24 10:56:10:825 [BaseDriver]       <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="926" width="428" height="243" index="1"/>
+2021-10-24 10:56:10:825 [BaseDriver]     </XCUIElementTypeOther>
+2021-10-24 10:56:10:825 [BaseDriver]   </XCUIElementTypeWindow>
+2021-10-24 10:56:10:826 [BaseDriver] </XCUIElementTypeApplication></AppiumAUT>
+2021-10-24 10:56:10:826 [W3C (1e873750)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2021-10-24 10:56:10:826 [W3C (1e873750)]     at XCUITestDriver.doNativeFind (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:130:11)
+2021-10-24 10:56:10:826 [W3C (1e873750)]     at runMicrotasks (<anonymous>)
+2021-10-24 10:56:10:827 [W3C (1e873750)]     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-10-24 10:56:10:827 [W3C (1e873750)]     at XCUITestDriver.findNativeElementOrElements (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:90:10)
+2021-10-24 10:56:10:827 [W3C (1e873750)]     at XCUITestDriver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:23:12)
+2021-10-24 10:56:10:827 [W3C (1e873750)]     at XCUITestDriver.findElOrElsWithProcessing (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+2021-10-24 10:56:10:827 [W3C (1e873750)]     at XCUITestDriver.findElement (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2021-10-24 10:56:10:827 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element 404 5954 ms - 1072
+2021-10-24 10:56:10:827 [HTTP] 
+2021-10-24 10:56:11:335 [HTTP] --> GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context
+2021-10-24 10:56:11:336 [HTTP] {}
+2021-10-24 10:56:11:336 [W3C (1e873750)] Calling AppiumDriver.getCurrentContext() with args: ["1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:56:11:337 [XCUITest] Executing command 'getCurrentContext'
+2021-10-24 10:56:11:337 [W3C (1e873750)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-10-24 10:56:11:338 [HTTP] <-- GET /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/context 200 2 ms - 22
+2021-10-24 10:56:11:338 [HTTP] 
+2021-10-24 10:56:11:341 [HTTP] --> POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element
+2021-10-24 10:56:11:341 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:11:342 [W3C (1e873750)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]","1e873750-b4bc-4c8d-905b-5087e63dbc35"]
+2021-10-24 10:56:11:342 [XCUITest] Executing command 'findElement'
+2021-10-24 10:56:11:342 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-10-24 10:56:11:342 [BaseDriver] Waiting up to 5000 ms for condition
+2021-10-24 10:56:11:346 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:11:346 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:11:384 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:11:384 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:11:384 [BaseDriver] Waited for 42 ms so far
+2021-10-24 10:56:11:889 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:11:889 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:11:929 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:11:929 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:11:929 [BaseDriver] Waited for 587 ms so far
+2021-10-24 10:56:12:438 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:12:438 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:12:479 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:12:480 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:12:480 [BaseDriver] Waited for 1138 ms so far
+2021-10-24 10:56:12:984 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:12:984 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:13:024 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:13:024 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:13:025 [BaseDriver] Waited for 1682 ms so far
+2021-10-24 10:56:13:529 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:13:529 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:13:572 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:13:572 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:13:572 [BaseDriver] Waited for 2230 ms so far
+2021-10-24 10:56:14:075 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-10-24 10:56:14:076 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/B50D9FD1-8790-42C2-8EF2-1594DF4CD33C/element] with body: {"using":"class chain","value":"**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]"}
+2021-10-24 10:56:14:127 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'class chain', value '**/XCUIElementTypeStaticText[`label == \"Choose restaurants, order a takeaway or browse movies and find everything you need to enjoy your rewards in the app.\"`]'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010fd6a072 FBNoSuchElementErrorResponseForRequest + 290\n\t1   WebDriverAgentLib                   0x000000010fd69e4c +[FBFindElementCommands handleFindElement:] + 364\n\t2   WebDriverAgentLib                   0x000000010fd2bd4c -[FBRoute_TargetAction mountRequest:intoResponse:] + 172\n\t3   WebDriverAgentLib                   0x000000010fd09234 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 500\n\t4   WebDriverAgentLib                   0x000000010fd4ea9d -[RoutingHTTPServer handleRoute:withRequest:response:] + 189\n\t5   WebDriverAgentLib                   0x000000010fd4f7f1 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 65\...
+2021-10-24 10:56:14:127 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-10-24 10:56:14:127 [BaseDriver] Waited for 2785 ms so far
+2021-10-24 10:56:14:463 [HTTP] <-- POST /wd/hub/session/1e873750-b4bc-4c8d-905b-5087e63dbc35/element - - ms - -
+2021-10-24 10:56:14:471 [HTTP] 
+2021-10-24 10:56:14:474 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:785:11)
+    at Socket._write (net.js:797:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:327:22)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:305:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+2021-10-24 10:56:14:478 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:785:11)
+    at Socket._write (net.js:797:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:327:22)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:305:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)

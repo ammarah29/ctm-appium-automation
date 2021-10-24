@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group 'com.ctm.appiumautomation'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.testng', name: 'testng', version: '6.14.3' // TestNG
+    implementation group: 'io.appium', name: 'java-client', version: '7.4.1' // Appium
+    implementation group: 'com.aventstack', name: 'extentreports', version: '4.0.9' // Extent Reports
+    implementation group: 'log4j', name: 'log4j', version: '1.2.17' // Logging
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '4.2.6' // Cucumber Java
+    implementation group: 'io.cucumber', name: 'cucumber-testng', version: '4.2.6' // Cucumber TestNG
+    implementation group: 'io.cucumber', name: 'cucumber-picocontainer', version: '4.2.6' // Cucumber Context
+    implementation group: 'com.vimalselvam', name: 'cucumber-extentsreport', version: '1.1.1' // Cucumber Extent Reports
+    implementation group: 'com.aventstack', name: 'extentreports-cucumber4-adapter', version: '1.0.7' // Cucumber Extent Reports
+    implementation group: 'io.qameta.allure', name: 'allure-cucumber4-jvm', version: '2.12.1' // Allure Reports
+    implementation group: 'commons-io', name: 'commons-io', version: '2.11.0' // FileUtils
+}
+
+test {
+    useTestNG() {
+        useDefaultListeners = true
+        suites 'src/test/resources/suites/cucumber.xml'
+    }
+    scanForTestClasses = false
+}

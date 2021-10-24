@@ -1,0 +1,432 @@
+ERROR 2021-10-01 22:35:31:157 [main] - Unable to find property defaultPlatformin properties file
+INFO  2021-10-01 22:35:31:338 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:36:14:875 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 22:36:16:525 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:36:16:604 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-01 22:37:26:430 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 22:37:28:034 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:37:28:110 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-01 22:37:58:372 [main] - [SETUP] Appium server started on port 4730
+INFO  2021-10-01 22:37:59:920 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:37:59:998 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-01 22:38:37:327 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 22:38:38:367 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:38:38:452 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-01 22:38:57:868 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 22:39:07:989 [main] - [SETUP] Launching Android
+INFO  2021-10-01 22:39:08:084 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:39:08:970 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211001223908.png
+INFO  2021-10-01 22:39:09:182 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-01 22:40:05:691 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 22:40:15:955 [main] - [SETUP] Launching Android
+INFO  2021-10-01 22:41:08:935 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:43:50:410 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 22:43:53:452 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:43:53:455 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-01 22:45:03:904 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 22:45:15:409 [main] - [SETUP] Launching Android
+INFO  2021-10-01 22:46:11:382 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:54:14:617 [TestNG-tests-1] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 22:54:17:729 [TestNG-tests-1] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:54:17:735 [TestNG-tests-1] - [TEARDOWN] Appium server stopped
+INFO  2021-10-01 22:54:17:816 [TestNG-tests-1] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:54:17:817 [TestNG-tests-1] - [TEST] runScenarioFAILED!
+INFO  2021-10-01 22:54:17:817 [TestNG-tests-1] - [TEST] Started runScenario
+INFO  2021-10-01 22:54:25:320 [TestNG-tests-1] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 22:54:36:608 [TestNG-tests-1] - [SETUP] Launching Android
+INFO  2021-10-01 22:54:58:326 [TestNG-tests-1] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-01 22:54:58:401 [TestNG-tests-1] - [TEARDOWN] Appium server stopped
+INFO  2021-10-01 22:54:58:404 [TestNG-tests-1] - [TEST] runScenarioPASSED
+INFO  2021-10-01 22:54:58:405 [TestNG-tests-1] - [TEST] Started runScenario
+INFO  2021-10-01 22:55:05:887 [TestNG-tests-1] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 22:55:15:420 [TestNG-tests-1] - [SETUP] Launching Android
+INFO  2021-10-01 22:56:13:359 [TestNG-tests-1] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:56:13:586 [TestNG-tests-1] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:56:13:930 [TestNG-tests-1] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:56:19:514 [TestNG-tests-1] - [TEARDOWN] Suite ended
+INFO  2021-10-01 22:59:43:589 [TestNG-tests-1] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 22:59:46:691 [TestNG-tests-1] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:59:46:695 [TestNG-tests-1] - [TEARDOWN] Appium server stopped
+INFO  2021-10-01 22:59:46:780 [TestNG-tests-1] - [SCREENSHOT] Capturing image
+INFO  2021-10-01 22:59:46:781 [TestNG-tests-1] - [TEST] runScenarioFAILED!
+INFO  2021-10-01 22:59:52:139 [TestNG-tests-1] - [TEARDOWN] Suite ended
+INFO  2021-10-01 23:04:35:160 [TestNG-tests-1] - [SETUP] Appium server started on port 4728
+INFO  2021-10-01 23:04:46:674 [TestNG-tests-1] - [SETUP] Launching Android
+INFO  2021-10-01 23:04:56:015 [TestNG-tests-1] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-01 23:04:56:091 [TestNG-tests-1] - [TEARDOWN] Appium server stopped
+INFO  2021-10-01 23:04:56:182 [TestNG-tests-1] - [TEST] runScenarioPASSED
+INFO  2021-10-01 23:05:01:420 [TestNG-tests-1] - [TEARDOWN] Suite ended
+INFO  2021-10-04 17:40:08:215 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 17:40:18:571 [main] - [SETUP] Launching Android
+INFO  2021-10-04 17:41:14:488 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 17:41:24:940 [main] - [SETUP] Launching Android
+INFO  2021-10-04 17:41:41:409 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 17:41:51:266 [main] - [SETUP] Launching Android
+INFO  2021-10-04 17:46:01:603 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 17:46:14:597 [main] - [SETUP] Launching Android
+INFO  2021-10-04 17:47:11:328 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 17:47:25:485 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 17:47:34:684 [main] - [SETUP] Launching Android
+INFO  2021-10-04 17:48:10:688 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 17:48:10:772 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 17:48:14:402 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 17:48:22:981 [main] - [SETUP] Launching Android
+INFO  2021-10-04 17:48:47:852 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 17:48:47:927 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 17:48:50:492 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 17:48:59:991 [main] - [SETUP] Launching Android
+INFO  2021-10-04 17:49:39:700 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 17:49:41:639 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004174939.png
+INFO  2021-10-04 17:49:41:999 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 17:49:42:081 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 17:50:55:606 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 17:51:05:796 [main] - [SETUP] Launching Android
+INFO  2021-10-04 17:51:40:879 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 17:51:42:909 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004175140.png
+INFO  2021-10-04 17:51:43:195 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 17:51:43:278 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 17:51:56:748 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 17:52:07:134 [main] - [SETUP] Launching Android
+INFO  2021-10-04 17:52:46:161 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 17:52:48:053 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004175246.png
+INFO  2021-10-04 17:52:48:370 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 17:52:48:453 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 17:53:57:884 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 17:54:08:136 [main] - [SETUP] Launching Android
+INFO  2021-10-04 17:54:46:847 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 17:54:47:946 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004175446.png
+INFO  2021-10-04 17:54:48:264 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 17:54:48:347 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 17:55:55:853 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 17:56:05:708 [main] - [SETUP] Launching Android
+INFO  2021-10-04 17:56:41:187 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 17:56:42:045 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004175641.png
+INFO  2021-10-04 17:56:42:289 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 17:56:42:376 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 18:17:22:196 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 18:17:34:828 [main] - [SETUP] Launching Android
+INFO  2021-10-04 18:18:09:554 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 18:18:09:640 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 18:18:13:349 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 18:18:22:981 [main] - [SETUP] Launching Android
+INFO  2021-10-04 18:18:54:415 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 18:18:54:501 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 18:18:58:228 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 18:19:07:867 [main] - [SETUP] Launching Android
+INFO  2021-10-04 18:19:42:298 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 18:19:43:225 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004181942.png
+INFO  2021-10-04 18:19:43:533 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 18:19:43:622 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 18:22:40:810 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 18:22:53:410 [main] - [SETUP] Launching Android
+INFO  2021-10-04 18:23:35:396 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 18:23:36:150 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004182335.png
+INFO  2021-10-04 18:23:36:411 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 18:23:36:490 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 18:24:59:743 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 18:25:10:210 [main] - [SETUP] Launching Android
+INFO  2021-10-04 18:26:12:276 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 18:26:13:198 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004182612.png
+INFO  2021-10-04 18:26:13:494 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 18:26:13:574 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 18:29:19:010 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 18:29:29:928 [main] - [SETUP] Launching Android
+INFO  2021-10-04 18:30:09:724 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 18:30:09:811 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 19:36:16:502 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 19:36:28:195 [main] - [SETUP] Launching Android
+INFO  2021-10-04 19:37:03:926 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 19:37:04:015 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 19:37:15:443 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 19:37:25:669 [main] - [SETUP] Launching Android
+INFO  2021-10-04 19:37:55:700 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 19:37:55:779 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 19:37:59:493 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 19:38:08:935 [main] - [SETUP] Launching Android
+INFO  2021-10-04 19:39:13:514 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 19:39:14:671 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004193913.png
+INFO  2021-10-04 19:39:14:988 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 19:39:15:078 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 19:39:17:939 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 19:39:28:286 [main] - [SETUP] Launching Android
+INFO  2021-10-04 19:40:01:410 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 19:40:01:492 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 19:42:25:240 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 19:42:35:294 [main] - [SETUP] Launching Android
+INFO  2021-10-04 19:43:47:248 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 19:43:48:524 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004194347.png
+INFO  2021-10-04 19:43:48:887 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 19:43:48:981 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 19:45:25:853 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 19:45:38:453 [main] - [SETUP] Launching Android
+INFO  2021-10-04 19:46:47:111 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 19:46:53:868 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 19:47:04:174 [main] - [SETUP] Launching Android
+INFO  2021-10-04 19:47:48:033 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 19:47:49:034 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004194748.png
+INFO  2021-10-04 19:47:49:326 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 19:47:49:410 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 20:14:43:550 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-04 20:15:12:058 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 20:15:12:152 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 20:15:36:738 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-04 20:18:16:200 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 20:18:16:314 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 20:21:43:319 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-04 20:24:33:811 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 20:24:34:001 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 20:24:45:438 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-04 20:24:51:457 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 20:24:51:543 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 20:26:03:683 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-04 20:26:09:274 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 20:26:09:354 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:21:52:445 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-04 21:28:36:735 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:28:46:261 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:28:50:040 [main] - [SETUP] Launching Android
+INFO  2021-10-04 21:28:51:351 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:28:54:913 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:28:54:916 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:29:12:049 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:29:19:254 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:29:19:344 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:30:00:473 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:30:07:745 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:30:07:832 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:30:25:103 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:30:32:266 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:30:32:355 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:31:30:105 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:31:37:748 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:31:37:839 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:32:04:710 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:32:12:504 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:32:12:589 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:32:41:274 [main] - [SETUP] Appium server started on port 4727
+INFO  2021-10-04 21:32:49:255 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:32:49:348 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:36:25:776 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:36:33:489 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:36:33:575 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:37:09:535 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:37:18:675 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:37:18:767 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:38:54:574 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:39:02:176 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:39:02:256 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:39:39:278 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:39:46:227 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:39:46:313 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:40:51:772 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:40:58:640 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:40:58:720 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:41:14:805 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:41:21:853 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:41:21:938 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:43:02:387 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:43:11:864 [main] - [SETUP] Launching Android
+INFO  2021-10-04 21:44:07:812 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:44:46:862 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:44:49:895 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:44:49:897 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:45:25:452 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:45:35:314 [main] - [SETUP] Launching Android
+INFO  2021-10-04 21:46:36:783 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 21:46:36:858 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:46:46:071 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:46:55:749 [main] - [SETUP] Launching Android
+INFO  2021-10-04 21:49:58:831 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:50:09:259 [main] - [SETUP] Launching Android
+INFO  2021-10-04 21:50:46:647 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 21:50:46:722 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:50:49:190 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:50:58:246 [main] - [SETUP] Launching Android
+INFO  2021-10-04 21:51:43:564 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 21:51:43:632 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 21:51:46:126 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-04 21:51:55:116 [main] - [SETUP] Launching Android
+INFO  2021-10-04 21:53:10:105 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 21:53:10:901 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004215310.png
+INFO  2021-10-04 21:53:11:177 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 21:53:11:258 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 22:08:02:657 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-04 22:23:24:161 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-04 22:23:56:107 [main] - [SETUP] Launching iOS
+INFO  2021-10-04 22:24:31:628 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 22:24:32:019 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004222431.png
+INFO  2021-10-04 22:24:33:132 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 22:24:33:233 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 22:24:37:300 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-04 22:25:07:209 [main] - [SETUP] Launching iOS
+INFO  2021-10-04 22:25:41:740 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 22:25:43:280 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004222541.png
+INFO  2021-10-04 22:25:44:361 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 22:25:44:462 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-04 22:25:48:562 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-04 22:26:19:473 [main] - [SETUP] Launching iOS
+INFO  2021-10-04 22:26:53:489 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-04 22:26:55:092 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211004222653.png
+INFO  2021-10-04 22:26:56:188 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-04 22:26:56:282 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:24:53:398 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-05 10:25:06:153 [main] - [SETUP] Launching Android
+INFO  2021-10-05 10:25:36:817 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 10:25:36:919 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:25:41:133 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-05 10:25:52:139 [main] - [SETUP] Launching Android
+INFO  2021-10-05 10:26:32:475 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 10:26:34:540 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005102632.png
+INFO  2021-10-05 10:26:34:872 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 10:26:34:989 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:26:39:115 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-05 10:26:50:304 [main] - [SETUP] Launching Android
+INFO  2021-10-05 10:27:23:116 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 10:27:23:207 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:31:25:833 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-05 10:31:38:271 [main] - [SETUP] Launching Android
+INFO  2021-10-05 10:32:08:957 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 10:32:09:059 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:32:13:147 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-05 10:32:24:318 [main] - [SETUP] Launching Android
+INFO  2021-10-05 10:33:01:846 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 10:33:01:946 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:33:05:997 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-05 10:33:17:205 [main] - [SETUP] Launching Android
+INFO  2021-10-05 10:33:49:793 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 10:33:49:893 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:44:00:602 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 10:45:43:278 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 10:45:55:423 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 10:45:56:030 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005104555.png
+INFO  2021-10-05 10:45:57:128 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 10:45:57:219 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:50:13:522 [TestNG-tests-1] - [SETUP] Appium server started on port 4728
+INFO  2021-10-05 10:50:23:840 [TestNG-tests-1] - [SETUP] Launching Android
+INFO  2021-10-05 10:50:52:495 [TestNG-tests-1] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 10:50:52:593 [TestNG-tests-1] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:50:52:765 [TestNG-tests-1] - [TEST] runScenarioPASSED
+INFO  2021-10-05 10:50:58:070 [TestNG-tests-1] - [TEARDOWN] Suite ended
+INFO  2021-10-05 10:52:12:139 [TestNG-tests-1] - [SETUP] Appium server started on port 4728
+INFO  2021-10-05 10:52:22:643 [TestNG-tests-1] - [SETUP] Launching Android
+INFO  2021-10-05 10:52:51:566 [TestNG-tests-1] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 10:52:51:619 [TestNG-tests-1] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:52:51:725 [TestNG-tests-1] - [TEST] runScenarioPASSED
+INFO  2021-10-05 10:52:51:726 [TestNG-tests-1] - [TEST] Started runScenario
+INFO  2021-10-05 10:53:00:606 [TestNG-tests-1] - [SETUP] Appium server started on port 4728
+INFO  2021-10-05 10:53:10:117 [TestNG-tests-1] - [SETUP] Launching Android
+INFO  2021-10-05 10:53:46:453 [TestNG-tests-1] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 10:53:46:543 [TestNG-tests-1] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:53:46:547 [TestNG-tests-1] - [TEST] runScenarioPASSED
+INFO  2021-10-05 10:53:46:548 [TestNG-tests-1] - [TEST] Started runScenario
+INFO  2021-10-05 10:53:55:247 [TestNG-tests-1] - [SETUP] Appium server started on port 4728
+INFO  2021-10-05 10:54:04:874 [TestNG-tests-1] - [SETUP] Launching Android
+INFO  2021-10-05 10:54:36:123 [TestNG-tests-1] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 10:54:36:202 [TestNG-tests-1] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 10:54:36:206 [TestNG-tests-1] - [TEST] runScenarioPASSED
+INFO  2021-10-05 10:54:41:630 [TestNG-tests-1] - [TEARDOWN] Suite ended
+INFO  2021-10-05 12:28:15:487 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:28:41:086 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:28:52:797 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:28:54:298 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005122852.png
+INFO  2021-10-05 12:28:55:330 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:28:55:418 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:32:02:721 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:32:34:343 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:32:43:738 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:32:44:226 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005123243.png
+INFO  2021-10-05 12:32:45:267 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:32:45:351 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:34:40:700 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:35:05:822 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:35:20:293 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:35:20:751 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005123520.png
+INFO  2021-10-05 12:35:21:820 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:35:21:919 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:38:21:739 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:38:46:759 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:38:56:076 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:38:56:537 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005123856.png
+INFO  2021-10-05 12:38:57:582 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:38:57:664 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:39:01:404 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:39:16:821 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:39:41:617 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:40:01:314 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:40:01:663 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005124001.png
+INFO  2021-10-05 12:40:02:699 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:40:02:780 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:43:03:642 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:43:37:595 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:43:58:762 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:43:59:022 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005124358.png
+INFO  2021-10-05 12:44:00:061 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:44:00:151 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:47:26:872 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:47:52:909 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:48:02:260 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:48:02:721 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005124802.png
+INFO  2021-10-05 12:48:03:765 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:48:03:849 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:48:14:965 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:48:40:090 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:49:01:428 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:49:01:654 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005124901.png
+INFO  2021-10-05 12:49:02:695 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:49:02:777 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:49:56:908 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:50:22:349 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:50:43:664 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:50:43:885 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005125043.png
+INFO  2021-10-05 12:50:44:959 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:50:45:041 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:51:46:902 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:52:11:612 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:52:32:578 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:52:33:150 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005125232.png
+INFO  2021-10-05 12:52:34:184 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:52:34:271 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:53:12:622 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:53:38:008 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:53:47:357 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:53:47:836 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005125347.png
+INFO  2021-10-05 12:53:48:920 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:53:49:004 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:54:12:433 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:54:36:744 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:55:22:404 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:55:23:943 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005125522.png
+INFO  2021-10-05 12:55:25:001 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:55:25:085 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 12:58:21:348 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 12:58:57:872 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 12:59:50:617 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 12:59:52:327 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005125950.png
+INFO  2021-10-05 12:59:53:376 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 12:59:53:487 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 13:08:40:407 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 13:09:12:312 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 13:09:21:662 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 13:09:22:158 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005130921.png
+INFO  2021-10-05 13:09:23:220 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 13:09:23:307 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 13:09:52:085 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 13:10:16:958 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 13:10:26:250 [main] - [SCREENSHOT] Capturing image
+INFO  2021-10-05 13:10:26:727 [main] - [SCREENSHOT] Image saved: src/test/resources/screenshots/20211005131026.png
+INFO  2021-10-05 13:10:27:767 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 13:10:27:845 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 13:11:20:336 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 13:11:45:434 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 13:12:07:013 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 13:12:07:099 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 13:18:13:418 [main] - [SETUP] Appium server started on port 4729
+INFO  2021-10-05 13:18:46:200 [main] - [SETUP] Launching iOS
+INFO  2021-10-05 13:19:12:561 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 13:19:12:672 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-05 13:19:34:971 [main] - [SETUP] Appium server started on port 4728
+INFO  2021-10-05 13:19:47:333 [main] - [SETUP] Launching Android
+INFO  2021-10-05 13:20:16:635 [main] - [TEARDOWN] WebDriver stopped
+INFO  2021-10-05 13:20:16:749 [main] - [TEARDOWN] Appium server stopped
+INFO  2021-10-24 11:55:09:660 [TestNG-tests-1] - [SETUP] Appium server started on port 4729
+INFO  2021-10-24 11:55:42:384 [TestNG-tests-1] - [SETUP] Launching iOS

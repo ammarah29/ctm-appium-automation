@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+    <listeners>
+        <listener class-name="com.ctm.appiumautomation.utils.TestListener"></listener>
+    </listeners>
+    <test name="CucumberTests">
+        <classes>
+            <class name="com.ctm.appiumautomation.runners.CucumberRunner"></class>
+        </classes>
+    </test>
+</suite>
